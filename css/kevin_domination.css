@@ -33,13 +33,13 @@ body{
   margin: 10px auto 0 auto;
 }
 .real-title{
-  overflow:hidden;
-  overflow-x: scroll;
+  overflow: hidden;
+  overflow: scroll;
   max-width: 20ch;
 }
 
 .title-container ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .todo-title{
@@ -69,4 +69,7 @@ body{
   font-family: fantasy;
   font-size: 15px;
   color: white;
+}
+.edit-input{
+  background:grey;
 }
