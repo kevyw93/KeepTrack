@@ -1,6 +1,7 @@
 <!DOCTYPE html>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href= './css/reset.css'/>
     <link rel="stylesheet" type="text/css" href= './css/kevin_domination.css'/>
     <script src="https://cdn.rawgit.com/kevyw93/DOManipulator/fd1a8c30/lib/kevin_domination.js"></script>
     <script src="./lib/todo_app.js"></script>
@@ -8,9 +9,11 @@
   <body>
     <div class="todolist-container">
       <form class="form">
-        <input class="title">Title</input>
-        <br />
-        <button>Create Submit</button>
+        <div class="title-container">
+          <h2 class="todo-title">Title</h2>
+          <input class="title-input" />
+          <button class="create-button">Create</button>
+        </div>
       </form>
       <div class="todo-lists">
       </div>
